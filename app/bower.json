@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.14",
+    "bootstrap": "~3.3.6",
+    "angular-route": "1.4.14",
+    "angular-resource": "1.4.14"
+  }
+}
