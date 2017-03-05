@@ -10,11 +10,11 @@
         angular.module('sportsStore', ['customFilters', 'cart', 'ngRoute'])
                 .config(function ($routeProvider) {
                     $routeProvider.when('/complete', {
-                        templateUrl: '/views/thankYou.html'
+                        templateUrl: '/app/views/thankYou.html'
                     });
 
                     $routeProvider.when('/placeorder', {
-                        templateUrl: '/views/placeOrder.html'
+                        templateUrl: '/app/views/placeOrder.html'
                     });
 
                     $routeProvider.when('/checkout', {
